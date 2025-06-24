@@ -1,4 +1,7 @@
 import nodemailer from "nodemailer";
+import {} from 'dotenv/config'
+import { dot } from "node:test/reporters";
+dotenv.config();
 
 
 export async function sendMail(toEmail,message) {
