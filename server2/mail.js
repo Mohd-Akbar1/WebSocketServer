@@ -14,7 +14,7 @@ export async function sendMail(toEmail,message) {
       service: "Gmail",
       auth: {
         user: "onetruestory001@gmail.com",
-        pass: "dafd zueg bwrb ddlv",
+        pass: "",
       },
     });
 
